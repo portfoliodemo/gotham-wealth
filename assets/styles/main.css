@@ -136,12 +136,24 @@ nav {
     background-color: #212529;
     /* background-color: #1d231c; */
     color: #ffffff;
-    padding: 2rem;
+    padding: 2rem 4rem;
 }
 
 .introduction p {
     max-width: 60ch;
 }
+
+.introduction-secondary {
+    display: grid;
+    gap: 2rem;
+    margin-top: 2rem;
+    grid-template-columns: 1fr 2fr;
+}
+
+#steering-wheel img {
+    border-radius: 1rem;
+}
+
 /* ----- Media Queries ----- */
 
 @media (min-width: 992px) {

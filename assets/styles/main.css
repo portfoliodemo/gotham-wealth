@@ -143,12 +143,12 @@ nav {
     max-width: 60ch;
 }
 
-.introduction-secondary {
+/* .introduction-secondary {
     display: grid;
     gap: 2rem;
     margin-top: 2rem;
     grid-template-columns: 1fr 2fr;
-}
+} */
 
 #steering-wheel img {
     border-radius: 1rem;

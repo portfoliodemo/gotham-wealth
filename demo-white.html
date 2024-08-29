@@ -17,6 +17,135 @@
     <link rel="stylesheet" href="./assets/styles/main.css">
 </head>
 <body>
+
+  <!-- Accordion Style Nav -->
+  <!-- <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Guardian Wealth</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Our Team</a>
+          </li>
+        </ul>
+        <span class="navbar-text">
+          Contact Us
+        </span>
+      </div>
+    </div>
+  </nav> -->
+
+  <!-- Off Canvas Navbar -->
+  <nav class="navbar navbar-expand-lg nav-fill bg-body-tertiary fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="./assets/images/gw-working-demo.jpg" width="50" height="50" alt="Guardian Wealth Logo">
+      </a>
+      <a class="navbar-brand" href="#">Guardian Wealth</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Guardian Wealth</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body align-items-center">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item offcanvas-home">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+            </li> -->
+            <!-- Potential Dropdown -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Services
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Retirement Planning</a></li>
+                <li><a class="dropdown-item" href="#">Wealth Preservation</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Tax Planning</a></li>
+                <li><a class="dropdown-item" href="#">Estate Planning</a></li>
+                <li><a class="dropdown-item" href="#">Life Insurance</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Our Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact Us</a>
+            </li>
+          </ul>
+          <!-- Potential Search -->
+          <!-- <form class="d-flex mt-3" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form> -->
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="hero-section">
+    <div class="hero">
+      <!-- <figure>
+          <img src="./assets/images/red-steering-wheel-classic.jpg" alt="Classic Car steering wheel, bright red, close-up">
+      </figure> -->
+      <figure>
+          <img src="./assets/images/mountain-road.jpg" alt="Road weaving amongst forests nestled amongst mountains.">
+      </figure>
+    </div>
+  </div>
+
+  <section class="introduction">
+    <h3 class="display-3">Welcome to Guardian Wealth</h3>
+    <p class="lead">Our mission is to provide personalized solutions that help you acheive your retirement goals. With years of experience and a dedicated team of experts, we are committed to your financial success.</p>
+  </section>
+
+  <section class="secondary-introduction">
+    <div class="secondary-introduction-image">
+      <figure>
+        <img src="./assets/images/red-steering-wheel-classic.jpg" alt="Classic Car steering wheel, bright red, close-up">
+      </figure>
+    </div>
+    <div class="secondary-introduction-text">
+      <h4 class="display-4">Guiding Your Journey to a Secure Retirement</h4>
+      <p>We specialize in creating tailored retirement income strategies that form the foundation of your financial future. Our team of seasoned experts also excels in wealth preservation, tax planning, estate planning, and life insurance. Trust us to guide you on the road to a secure and prosperous retirement.</p>
+      <button type="button" class="btn btn-primary">Learn More</button>
+    </div>
+  </section>
+
+  <footer class="py-3 my-4">
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3 ">
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary ">Home</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Services</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Our Team</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Contact Us</a></li>
+    </ul>
+    <p class="text-center text-body-secondary">© 2024 Guardian Wealth</p>
+  </footer>
     
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>

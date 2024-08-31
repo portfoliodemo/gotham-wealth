@@ -149,8 +149,9 @@ nav {
 }
 
 .secondary-introduction {
-    display: grid;
-    grid-template-columns: 1fr 3fr;
+    display: flex;
+    flex-direction: column;
+    /* grid-template-columns: 1fr 3fr; */
     gap: 1rem;
     align-items: center;
     justify-items: center;
@@ -160,12 +161,22 @@ nav {
     padding: 2rem 4rem;
 }
 
+.secondary-introduction-image {
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+}
+
+.secondary-introduction-image figure img {
+    border-radius: 1.25rem;
+}
+
 .secondary-introduction-text {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 1rem;
-    padding: 2rem;
+    /* padding: 2rem; */
 }
 
 .introduction p {
@@ -181,6 +192,13 @@ nav {
 
 #steering-wheel img {
     border-radius: 1rem;
+}
+
+.services {
+    display: flex;
+    justify-content: center;
+    background-color: #212529;
+    color: #ffffff;
 }
 
 /* ----- Media Queries ----- */

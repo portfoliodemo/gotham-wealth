@@ -153,10 +153,24 @@ nav {
     align-items: center;
     flex-direction: column;
     padding: 2rem 4rem;
+    gap: 1rem;
 }
 
 .services-overview figure {
     width: 10%;
+}
+
+.service-card {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    border-color: #ffffff;
+    border-left-color: #1d231c;
+    border-width: 0.25rem;
+    border-style: solid;
+
+    /* background-color: #e1dfd9; */
+    padding: 2rem 4rem;
 }
 
 .secondary-introduction {

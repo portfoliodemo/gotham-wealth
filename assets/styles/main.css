@@ -148,6 +148,17 @@ nav {
     max-width: 60ch;
 }
 
+.services-overview {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem 4rem;
+}
+
+.services-overview figure {
+    width: 10%;
+}
+
 .secondary-introduction {
     display: flex;
     flex-direction: column;

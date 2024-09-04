@@ -150,7 +150,7 @@ nav {
 
 .services-overview {
     display: flex;
-    align-items: center;
+    align-items: stretch;
     flex-direction: column;
     padding: 2rem 4rem;
     gap: 1rem;

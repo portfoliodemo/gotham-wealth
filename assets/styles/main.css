@@ -176,6 +176,7 @@ nav {
     border-style: solid;
     /* background-color: #e1dfd9; */
     padding: 2rem 2rem;
+    background-color: whitesmoke;
 }
 
 /* Add's the right-border color to every other service card */
@@ -272,6 +273,13 @@ nav {
         border-style: solid;
         /* background-color: #e1dfd9; */
         padding: 2rem 2rem;
+    }
+
+    .hero-section .hero figure img {
+        width: 100%;
+        height: auto;
+        max-height: 64vh; /* Limit height to 70% of the viewport */
+        object-fit: cover; /* Ensures the image covers the area without distortion */
     }
 }
 

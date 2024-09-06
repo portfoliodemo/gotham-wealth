@@ -147,10 +147,14 @@ nav {
 
 .introduction p {
     max-width: 60ch;
+    font-size: 1.5rem;
 }
 
 .services-overview h4:first-of-type {
     text-align: center;
+    padding: 2rem 0;
+    font-size: 4rem;
+    font-weight: 500;
 }
 
 .services-overview {
@@ -159,7 +163,7 @@ nav {
     flex-direction: column;
     padding: 2rem 4rem;
     gap: 1rem;
-    margin: 2rem 0;
+    /* margin: 2rem 0; */
 }
 
 .services-overview figure {
@@ -194,6 +198,16 @@ nav {
 
 .service-card-text {
     font-size: 1.5rem;
+}
+
+.initial-consultation {
+    display: grid;
+    gap: 1rem;
+    justify-items: center;
+    /* background-color: #212529; */
+    /* background-color: #1d231c; */
+    /* color: #ffffff; */
+    padding: 2rem 4rem;
 }
 
 .our-team {
@@ -279,6 +293,20 @@ nav {
         width: 100%;
         height: auto;
         max-height: 64vh; /* Limit height to 70% of the viewport */
+        object-fit: cover; /* Ensures the image covers the area without distortion */
+    }
+
+    .skyscraper img {
+        width: 100%;
+        height: auto;
+        max-height: 90vh; /* Limit height to 70% of the viewport */
+        object-fit: cover; /* Ensures the image covers the area without distortion */
+    }
+    
+    .meet-our-team img {
+        width: 100%;
+        height: auto;
+        max-height: 90vh; /* Limit height to 70% of the viewport */
         object-fit: cover; /* Ensures the image covers the area without distortion */
     }
 }

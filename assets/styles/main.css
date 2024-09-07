@@ -146,15 +146,21 @@ nav {
 }
 
 .introduction p {
-    max-width: 60ch;
-    font-size: 1.5rem;
+    max-width: 80ch;
+    font-size: 1.25rem;
+}
+
+.cta-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
 }
 
 .services-overview h4:first-of-type {
     text-align: center;
     padding: 2rem 0;
-    font-size: 4rem;
-    font-weight: 500;
+    /* font-size: 4rem; */
+    /* font-weight: 500; */
 }
 
 .services-overview {
@@ -202,7 +208,7 @@ nav {
 
 .initial-consultation {
     display: grid;
-    gap: 1rem;
+    gap: 2rem;
     justify-items: center;
     /* background-color: #212529; */
     /* background-color: #1d231c; */
@@ -249,10 +255,6 @@ nav {
     align-items: center;
     gap: 1rem;
     /* padding: 2rem; */
-}
-
-.introduction p {
-    max-width: 60ch;
 }
 
 /* .introduction-secondary {

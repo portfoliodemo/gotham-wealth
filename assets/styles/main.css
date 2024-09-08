@@ -137,7 +137,7 @@ nav {
 
 .introduction {
     display: grid;
-    gap: 1rem;
+    gap: 2rem;
     justify-items: center;
     background-color: #212529;
     /* background-color: #1d231c; */
@@ -156,20 +156,27 @@ nav {
     gap: 1.5rem;
 }
 
-.services-overview h4:first-of-type {
-    text-align: center;
-    padding: 2rem 0;
-    /* font-size: 4rem; */
-    /* font-weight: 500; */
-}
+/* .cta-buttons a {
+    padding: 1rem;
+    font-size: 2rem;
+} */
 
 .services-overview {
     display: flex;
     align-items: stretch;
     flex-direction: column;
     padding: 2rem 4rem;
-    gap: 1rem;
+    gap: 2rem;
+    /* background-image: url('../images/compass-wood.jpg'); */
+    /* background-image: url('../images/palm-tree-beach.jpg'); */
     /* margin: 2rem 0; */
+}
+
+.services-overview h4:first-of-type {
+    text-align: center;
+    padding: 2rem 0;
+    /* font-size: 4rem; */
+    /* font-weight: 500; */
 }
 
 .services-overview figure {
@@ -204,6 +211,11 @@ nav {
 
 .service-card-text {
     font-size: 1.5rem;
+}
+
+.explore-services-btn {
+    display: flex;
+    justify-content: center;
 }
 
 .initial-consultation {

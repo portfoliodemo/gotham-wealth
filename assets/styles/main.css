@@ -151,7 +151,7 @@ nav {
     background-color: #212529;
     /* background-color: #1d231c; */
     color: #ffffff;
-    padding: 2rem 4rem;
+    padding: 2rem 3rem;
 }
 
 .introduction p {
@@ -178,7 +178,7 @@ nav {
     display: flex;
     align-items: stretch;
     flex-direction: column;
-    padding: 2rem 4rem;
+    padding: 2rem 3rem;
     gap: 2rem;
     /* background-image: url('../images/compass-wood.jpg'); */
     /* background-image: url('../images/palm-tree-beach.jpg'); */
@@ -242,7 +242,7 @@ nav {
     background-color: #212529;
     /* background-color: #1d231c; */
     color: #ffffff;
-    padding: 2rem 4rem;
+    padding: 2rem 3rem;
 }
 
 .why-choose-us p {
@@ -257,7 +257,7 @@ nav {
     /* background-color: #212529; */
     /* background-color: #1d231c; */
     /* color: #ffffff; */
-    padding: 2rem 4rem;
+    padding: 2rem 3rem;
 }
 
 .our-team {
@@ -267,7 +267,7 @@ nav {
     background-color: #212529;
     /* background-color: #1d231c; */
     color: #ffffff;
-    padding: 2rem 4rem;
+    padding: 2rem 3rem;
 }
 
 .secondary-introduction {
@@ -280,7 +280,7 @@ nav {
     background-color: #ffffff;
     /* background-color: #1d231c; */
     color: #1d231c;
-    padding: 2rem 4rem;
+    padding: 2rem 3rem;
 }
 
 .secondary-introduction-image {

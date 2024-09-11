@@ -165,6 +165,10 @@ nav {
     gap: 1.5rem;
 }
 
+.cta-buttons a {
+    font-size: 1.5rem;
+}
+
 /* .cta-buttons a {
     padding: 1rem;
     font-size: 2rem;
@@ -225,6 +229,25 @@ nav {
 .explore-services-btn {
     display: flex;
     justify-content: center;
+}
+
+.explore-services-btn a {
+    font-size: 1.5rem;
+}
+
+.why-choose-us {
+    display: grid;
+    gap: 2rem;
+    justify-items: center;
+    background-color: #212529;
+    /* background-color: #1d231c; */
+    color: #ffffff;
+    padding: 2rem 4rem;
+}
+
+.why-choose-us p {
+    max-width: 80ch;
+    font-size: 1.5rem;
 }
 
 .initial-consultation {

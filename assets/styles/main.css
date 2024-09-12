@@ -260,6 +260,10 @@ nav {
     padding: 2rem 3rem;
 }
 
+.initial-consultation p {
+    font-size: 1.5rem;
+}
+
 .our-team {
     display: grid;
     gap: 1rem;

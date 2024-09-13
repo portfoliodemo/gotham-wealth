@@ -290,44 +290,6 @@ nav {
     padding: 2rem 3rem;
 }
 
-.secondary-introduction {
-    display: flex;
-    flex-direction: column;
-    /* grid-template-columns: 1fr 3fr; */
-    gap: 1rem;
-    align-items: center;
-    justify-items: center;
-    background-color: #ffffff;
-    /* background-color: #1d231c; */
-    color: #1d231c;
-    padding: 2rem 3rem;
-}
-
-.secondary-introduction-image {
-    display: flex;
-    gap: 1rem;
-    flex-direction: column;
-}
-
-.secondary-introduction-image figure img {
-    border-radius: 1.25rem;
-}
-
-.secondary-introduction-text {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
-    /* padding: 2rem; */
-}
-
-/* .introduction-secondary {
-    display: grid;
-    gap: 2rem;
-    margin-top: 2rem;
-    grid-template-columns: 1fr 2fr;
-} */
-
 #steering-wheel img {
     border-radius: 1rem;
 }

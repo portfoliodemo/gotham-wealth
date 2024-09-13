@@ -177,12 +177,16 @@ nav {
 .fade-in {
     opacity: 0;
     transform: translateY(20px); /* Optional: slight upward movement */
-    transition: opacity 2s ease-out, transform 1s ease-out;
+    transition: opacity 1.5s ease-out, transform 1s ease-out;
 }
 
 .fade-in.show {
     opacity: 1;
     transform: translateY(0); /* Reset the translation */
+}
+
+.dark-background {
+    background-color: #212529;
 }
 
 .services-overview {
@@ -269,6 +273,7 @@ nav {
     /* background-color: #1d231c; */
     /* color: #ffffff; */
     padding: 2rem 3rem;
+    color: #ffffff;
 }
 
 .initial-consultation p {

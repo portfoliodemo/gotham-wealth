@@ -155,7 +155,7 @@ nav {
     background-color: #212529;
     /* background-color: #1d231c; */
     color: #ffffff;
-    padding: 2rem 3rem;
+    padding: 3rem 3rem;
 }
 
 .introduction p {
@@ -397,6 +397,44 @@ nav {
 }
 
 .about-our-approach p {
+    max-width: 80ch;
+    font-size: 1.5rem;
+}
+
+/* Our Services */
+.our-services-introduction {
+    display: grid;
+    gap: 2rem;
+    justify-items: center;
+    background-color: #212529;
+    /* background-color: #1d231c; */
+    color: #ffffff;
+    padding: 3rem 3rem;
+}
+
+.our-services-introduction p {
+    max-width: 80ch;
+    font-size: 1.5rem;
+}
+
+.our-services-details {
+    display: grid;
+    gap: 2rem;
+    justify-items: center;
+    background-color: #ffffff;
+    /* background-color: #212529; */
+    /* color: #ffffff; */
+    padding: 3rem 3rem;
+}
+
+.service-detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.service-detail p {
     max-width: 80ch;
     font-size: 1.5rem;
 }

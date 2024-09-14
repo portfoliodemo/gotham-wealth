@@ -401,6 +401,21 @@ nav {
     font-size: 1.5rem;
 }
 
+.services-cta {
+    display: grid;
+    gap: 2rem;
+    justify-items: center;
+    background-color: #212529;
+    /* background-color: #1d231c; */
+    color: #ffffff;
+    padding: 3rem 3rem;
+}
+
+.services-cta p {
+    max-width: 80ch;
+    font-size: 1.5rem;
+}
+
 /* Our Services */
 .our-services-introduction {
     display: grid;
@@ -438,6 +453,18 @@ nav {
     max-width: 80ch;
     font-size: 1.5rem;
 }
+
+.service-detail figure {
+    width: 7rem;
+}
+
+.service-detail ul li {
+    font-size: 1.5rem;
+}
+
+/* .service-detail ul li:first-child {
+    list-style-type: none;
+} */
 
 /* ----- Media Queries ----- */
 

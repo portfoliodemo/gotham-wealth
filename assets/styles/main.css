@@ -126,6 +126,10 @@ nav {
     font-family: 'Libre Baskerville', serif;
 }
 
+/* .nav-item {
+    font-size: 1.5rem;
+} */
+
 /* .contact-phone {
     background-color: #1d231c;
     border-radius: 0.5rem;
@@ -167,6 +171,26 @@ nav {
 
 .cta-buttons a {
     font-size: 1.5rem;
+}
+
+.about-cta-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.about-cta-buttons a {
+    font-size: 1.5rem;
+    background-color: #188241;
+    color: #ffffff;
+    border-color: #188241;
+}
+
+.about-cta-buttons a:hover {
+    background-color: whitesmoke;
+    color: #188241;
+    /* background-color: #1d231c; */
+    /* color: #ffffff; */
 }
 
 /* .cta-buttons a {
@@ -305,6 +329,78 @@ nav {
 
 } */
 
+/* About Guardian Wealth */
+
+.about-introduction {
+    display: grid;
+    gap: 2rem;
+    justify-items: center;
+    background-color: #212529;
+    /* background-color: #1d231c; */
+    color: #ffffff;
+    padding: 3rem 3rem;
+}
+
+.about-introduction p {
+    max-width: 80ch;
+    font-size: 1.5rem;
+}
+
+.about-mission {
+    display: grid;
+    gap: 2rem;
+    justify-items: center;
+    /* background-color: #212529; */
+    /* background-color: #1d231c; */
+    color: #ffffff;
+    padding: 3rem 3rem;
+}
+
+.about-mission p {
+    max-width: 80ch;
+    font-size: 1.5rem;
+}
+
+.about-core-values {
+    display: grid;
+    gap: 2rem;
+    justify-items: center;
+    background-color: #212529;
+    /* background-color: #1d231c; */
+    color: #ffffff;
+    padding: 3rem 3rem;
+}
+
+.about-core-values p {
+    max-width: 50ch;
+    font-size: 1.5rem;
+}
+
+.mini-services-icons {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.about-mission .mini-services-icons figure {
+    width: 4rem;
+}
+
+.about-our-approach {
+    display: grid;
+    gap: 2rem;
+    justify-items: center;
+    background-color: #212529;
+    /* background-color: #1d231c; */
+    color: #ffffff;
+    padding: 3rem 3rem;
+}
+
+.about-our-approach p {
+    max-width: 80ch;
+    font-size: 1.5rem;
+}
+
 /* ----- Media Queries ----- */
 
 @media (min-width: 1180px) {
@@ -360,5 +456,14 @@ nav {
 @media (max-width: 550px) {
     .services-overview figure {
         width: 30%;
+    }
+
+    .mini-services-icons {
+        display: flex;
+        gap: 1.5rem;
+    }
+    
+    .about-mission .mini-services-icons figure {
+        width: 2.75rem;
     }
 }

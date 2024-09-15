@@ -126,6 +126,10 @@ nav {
     font-family: 'Libre Baskerville', serif;
 }
 
+.navigation-separator {
+    margin-top: 5rem;
+}
+
 /* .nav-item {
     font-size: 1.5rem;
 } */
@@ -141,7 +145,7 @@ nav {
 
 .hero-section {
     display: grid;
-    /* margin-top: 4rem; */
+    margin-top: 4rem;
 }
 
 .container-fluid {
@@ -401,6 +405,8 @@ nav {
     font-size: 1.5rem;
 }
 
+/* Services  */
+
 .services-cta {
     display: grid;
     gap: 2rem;
@@ -416,7 +422,6 @@ nav {
     font-size: 1.5rem;
 }
 
-/* Our Services */
 .our-services-introduction {
     display: grid;
     gap: 2rem;
@@ -466,6 +471,52 @@ nav {
     list-style-type: none;
 } */
 
+/* Our Team */
+
+.our-team-introduction {
+    display: grid;
+    gap: 2rem;
+    justify-items: center;
+    background-color: #212529;
+    /* background-color: #1d231c; */
+    color: #ffffff;
+    padding: 3rem 3rem;
+}
+
+.our-team-introduction p {
+    max-width: 80ch;
+    font-size: 1.5rem;
+}
+
+.our-team-members {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding: 3rem 3rem;
+}
+
+.team-member {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.team-member-text {
+    font-size: 1.5rem;
+}
+
+/* .team-member figure {
+    width: 77%;
+} */
+
+.team-member figure img {
+    border-radius: 1rem;
+}
+
+
+
 /* ----- Media Queries ----- */
 
 @media (min-width: 1180px) {
@@ -485,8 +536,10 @@ nav {
     .hero-section .hero figure img {
         width: 100%;
         height: auto;
-        max-height: 64vh; /* Limit height to 70% of the viewport */
-        object-fit: cover; /* Ensures the image covers the area without distortion */
+        /* Limit height to 70% of the viewport */
+        /* max-height: 64vh;  */
+        /* Ensures the image covers the area without distortion */
+        /* object-fit: cover;  */
     }
 
     .skyscraper img {

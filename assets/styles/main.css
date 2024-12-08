@@ -590,6 +590,14 @@ nav {
     max-width: 60ch;
 }
 
+.dfsi-link {
+    text-decoration: none;
+}
+
+.client-login-link {
+    color: rgb(33, 37, 41, 0.75);
+}
+
 /* ----- Media Queries ----- */
 
 @media (min-width: 1180px) {

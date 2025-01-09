@@ -614,14 +614,14 @@ nav {
         padding: 2rem 2rem;
     }
 
-    .hero-section .hero figure img {
-        width: 100%;
-        height: auto;
+    /* .hero-section .hero figure img { */
+        /* width: 100%; */
+        /* height: auto; */
         /* Limit height to 70% of the viewport */
         /* max-height: 64vh;  */
         /* Ensures the image covers the area without distortion */
         /* object-fit: cover;  */
-    }
+    /* } */
 
     .skyscraper img {
         width: 100%;

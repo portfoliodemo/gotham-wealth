@@ -91,9 +91,15 @@
     <!-- Our Services Hero Section -->
     <div class="hero-section">
       <div class="hero">
-        <figure>
+        <picture>
+          <source srcset="./assets/images/many-sunny-trees.jpg" media="(max-width: 999px)">
+          <source srcset="./assets/images/many-sunny-trees-tablet.jpg" media="(min-width: 1000px) and (max-width: 1229px)">
+          <source srcset="./assets/images/many-sunny-trees-widescreen.jpg" media="(min-width: 1230px)">
+          <img src="./assets/images/many-sunny-trees.jpg" alt="Road weaving amongst forests nestled amongst mountains.">
+        </picture>
+        <!-- <figure>
           <img src="./assets/images/many-sunny-trees.jpg" alt="A sunny yard full of mature trees.">
-        </figure>
+        </figure> -->
       </div>
     </div>
   

@@ -598,8 +598,9 @@ nav {
 .form-submit {
     width: 100%;
     margin-top: 1.2rem;
-    background-color: #3124ca;
-    color: #fff;
+    background-color: #188241;
+    /* background-color: #3124ca; */
+    color: #ffffff;
     padding: 13px 5px;
     border-radius: 0.375rem;
 }

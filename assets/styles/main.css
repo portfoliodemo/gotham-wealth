@@ -701,6 +701,11 @@ nav {
 }
 
 @media (max-width: 420px) {
+
+    a.navbar-brand.company-name {
+        display: none;
+    }
+
     .mobile-title-legal {
         display: none;
     }

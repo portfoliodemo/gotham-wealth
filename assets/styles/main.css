@@ -622,6 +622,14 @@ nav {
     color: #188241;
 }
 
+.client-login-footer:hover {
+    color: #1d231c;
+}
+
+.client-login-footer:visited {
+    color: #188241;
+}
+
 /* .client-login-link {
     color: rgb(33, 37, 41, 0.75);
 } */

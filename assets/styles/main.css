@@ -618,9 +618,13 @@ nav {
     text-decoration: none;
 }
 
-.client-login-link {
-    color: rgb(33, 37, 41, 0.75);
+.client-login-footer {
+    color: #188241;
 }
+
+/* .client-login-link {
+    color: rgb(33, 37, 41, 0.75);
+} */
 
 /* ----- Media Queries ----- */
 
